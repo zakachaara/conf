@@ -2038,7 +2038,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: rgba(144, 144, 144, 0.5);
+			background: rgba(231, 231, 231, 0.5);
 			content: '';
 			display: inline-block;
 			height: 1px;
@@ -2917,14 +2917,17 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("images/overlaye1.webp"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-position: top right,						center center,					center center;
+		background-size: cover,							cover,							cover;
+		/* background-blend-mode:luminosity; */
+		filter: drop-shadow(3px);
 		overflow: hidden;
 		position: relative;
 		text-align: center;
 	}
-
+	
+	  
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
