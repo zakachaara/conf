@@ -1,0 +1,24 @@
+body {
+    scrollbar-width: 0px;
+}
+.program{
+    color: red;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 1px;
+    background: #000;
+}
+#countDown{
+ color: red;
+ font-size: xx-large;
+ margin: 10px;
+ background-color: #ebebeb;
+ border-radius: 10px;
+ padding: 5px;
+ font-family: monospace;
+}
+#formateur{
+    border-top: dashed 1px rgb(150, 149, 149);
+    /* border-width: 90vw; */
+    background-color: rgba(244, 248, 246, 0.774);
+}
